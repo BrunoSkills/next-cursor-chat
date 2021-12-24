@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo, memo } from 'react'
-import useOnlineCursor from './hooks/useOnlineCursor';
-import useRenderPosition from './hooks/useRenderPosition';
-import Me from './cursor/me';
-import Others from './cursor/others';
+import useOnlineCursor from './useOnlineCursor';
+import useRenderPosition from './useRenderPosition';
+import Me from './me';
+import Others from './others';
 import  '../../styles/cursor-chat.module.css'
 
 
