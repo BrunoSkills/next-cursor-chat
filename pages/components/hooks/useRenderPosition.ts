@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Others from '../cursor/others';
 import Me from '../cursor/me';
-import { MousePosition } from '../types';
+import { MousePosition } from '../../../data/types';
 
 
 const useRenderPosition = (cursor: Me | Others) => {

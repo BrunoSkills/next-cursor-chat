@@ -2,13 +2,13 @@ import { fromEvent, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 import Room from '@yomo/presencejs/dist/room';
 import Cursor from './cursor';
-import { getScale } from '../helper';
+import { getScale } from '../../../data/helper';
 import {
     CursorMessage,
     MovementMessage,
     TextMessage,
     OfflineMessage,
-} from '../types';
+} from '../../../data/types';
 
 export default class Me extends Cursor {
     private room: Room | undefined;
