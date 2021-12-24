@@ -1,4 +1,4 @@
-export const uuidv4 = () => {
+ export  const  uuidv4  = () => {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
         let r = (Math.random() * 16) | 0,
             v = c === 'x' ? r : (r & 0x3) | 0x8;
@@ -6,7 +6,8 @@ export const uuidv4 = () => {
     });
 };
 
-export const getViewportSize = () => {
+
+export const  getViewportSize = ()  => {
     if ((window as any).getViewportSize) {
         return (window as any).getViewportSize;
     }
@@ -29,7 +30,7 @@ export const getViewportSize = () => {
     return (window as any).getViewportSize;
 };
 
-export const getScale = (x: number, y: number) => {
+export function getScale (x: number, y: number) {
     const { width, height } = getViewportSize();
     return {
         scaleX: x / width,

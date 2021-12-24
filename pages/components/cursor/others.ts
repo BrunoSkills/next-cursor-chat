@@ -2,7 +2,7 @@ import { Subscription } from 'rxjs';
 import { filter, map } from 'rxjs/operators';
 import Room from '@yomo/presencejs/dist/room';
 import Cursor from './cursor';
-import { getMousePosition } from '../helper/main';
+import { getMousePosition } from '../helper';
 import { MovementMessage, TextMessage } from '../types';
 export default class Others extends Cursor {
     private textMessageSubscription: Subscription | undefined;

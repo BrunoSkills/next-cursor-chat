@@ -4,7 +4,7 @@ import Me from '../cursor/me';
 import Others from '../cursor/others';
 
 import { YoMoClient } from '@yomo/presencejs';
-import { uuidv4 } from '../helper/main';
+import { uuidv4 } from '../helper';
 import { CursorMessage, OfflineMessage } from '../types';
 import { filter } from 'rxjs/operators';
 

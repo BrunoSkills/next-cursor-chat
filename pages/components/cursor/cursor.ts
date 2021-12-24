@@ -1,4 +1,4 @@
-import { stringToColor } from '../helper/main';
+import { stringToColor } from '../helper';
 import { MousePosition } from '../types';
 
 export default class Cursor {

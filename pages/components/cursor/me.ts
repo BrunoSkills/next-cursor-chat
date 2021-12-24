@@ -2,7 +2,7 @@ import { fromEvent, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 import Room from '@yomo/presencejs/dist/room';
 import Cursor from './cursor';
-import { getScale } from '../helper/main';
+import { getScale } from '../helper';
 import {
     CursorMessage,
     MovementMessage,
