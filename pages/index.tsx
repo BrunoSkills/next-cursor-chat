@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import '@yomo/react-cursor-chat/dist/cursor-chat.min.css';
 // import CursorChat from '../components/types';
-import CursorChat from './components/CursorChat';
+import CursorChat from '../components/CursorChat';
 import tw from "tailwind-styled-components"
 
 
