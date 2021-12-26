@@ -70,8 +70,7 @@ const useOnlineCursor = ({
                 });
             });
 
-            // Answer server query, when others others go online, server will ask otherss' states,
-            // this is the response
+           //The response of the server when the client is connected
             room.fromServer<CursorMessage>('sync')
                 .pipe(filter(data => data.id !== ID))
                 .subscribe(data => {
